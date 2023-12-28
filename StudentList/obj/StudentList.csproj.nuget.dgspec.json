@@ -7,11 +7,11 @@
     "C:\\Users\\VMAdmin\\opensourcestudent\\StudentList\\StudentList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\VMAdmin\\opensourcestudent\\StudentList\\StudentList.csproj",
+        "projectUniqueName": "D:\Dotnet\StudentList\\opensourcestudent\\StudentList\\StudentList.csproj",
         "projectName": "StudentList",
-        "projectPath": "C:\\Users\\VMAdmin\\opensourcestudent\\StudentList\\StudentList.csproj",
-        "packagesPath": "C:\\Users\\VMAdmin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\VMAdmin\\opensourcestudent\\StudentList\\obj\\",
+        "projectPath": "D:\Dotnet\StudentList\\opensourcestudent\\StudentList\\StudentList.csproj",
+        "packagesPath": "D:\Dotnet\StudentList\\.nuget\\packages\\",
+        "outputPath": "D:\Dotnet\StudentList\\opensourcestudent\\StudentList\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
