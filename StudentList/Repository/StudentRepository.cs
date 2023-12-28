@@ -38,7 +38,7 @@ namespace StudentList.Repository
 
             public void AddStudent(Student student)
             {
-                student.StudentId = nextStudentId++;
+                student.StudentId = nextStudentId+=2;
                 students.Add(student);
             }
 
