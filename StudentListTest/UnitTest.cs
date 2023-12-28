@@ -3,9 +3,18 @@ namespace StudentListTest
     public class UnitTest1
     {
         [Fact]
-        public void Test1()
-        {
-
-        }
+    public void GetStudents_ReturnsOkObjectResult()
+    {
+        // Arrange
+        var studentServiceMock = new Mock<IStudentService>();
+        // Assuming _studentService is a property in your controller
+        var controller = new YourController(studentServiceMock.Object);
+ 
+        // Act
+        var result = controller.GetStudents();
+ 
+        // Assert
+        Assert.IsType<OkObjectResult>(result);
+    }
     }
 }
