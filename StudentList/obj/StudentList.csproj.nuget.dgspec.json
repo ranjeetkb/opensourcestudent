@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Dotnet\\StudentList\\StudentList\\StudentList.csproj": {}
+    "C:\\Users\\VMAdmin\\opensourcestudent\\StudentList\\StudentList.csproj": {}
   },
   "projects": {
-    "D:\\Dotnet\\StudentList\\StudentList\\StudentList.csproj": {
+    "C:\\Users\\VMAdmin\\opensourcestudent\\StudentList\\StudentList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dotnet\\StudentList\\StudentList\\StudentList.csproj",
+        "projectUniqueName": "C:\\Users\\VMAdmin\\opensourcestudent\\StudentList\\StudentList.csproj",
         "projectName": "StudentList",
-        "projectPath": "D:\\Dotnet\\StudentList\\StudentList\\StudentList.csproj",
-        "packagesPath": "C:\\Users\\zakar\\.nuget\\packages\\",
-        "outputPath": "D:\\Dotnet\\StudentList\\StudentList\\obj\\",
+        "projectPath": "C:\\Users\\VMAdmin\\opensourcestudent\\StudentList\\StudentList.csproj",
+        "packagesPath": "C:\\Users\\VMAdmin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\VMAdmin\\opensourcestudent\\StudentList\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\zakar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\VMAdmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -60,6 +65,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.14, 7.0.14]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
