@@ -2,6 +2,7 @@
 {
     public class Student
     {
+        [Key]
         [Required]
         public int StudentId { get; set; }
         [Required]
